@@ -48,12 +48,14 @@ Language Skills
 Mother tongue: Portuguese.
 
 Others:
-|                   | Language | English | Spanish |
-|Skill              |          |         |         |
-|Listening          |          |    C2    |    B1     |
-|Reading            |          |    C2     |   B1      |
-|Spoken Production  |          |    C1     |   A2      |
-|Spoken Interaction |          |    C1    |    A2     |
-| Writing           |          |     C1    |   A1      |
+|                     |         Language          | English   | Spanish   |
+|                     |:-----------------------:  |:-------:  |:-------:  |
+|        Skill        |                           |           |           |
+|:------------------: |                           |           |           |
+|      Listening      |          String           |    C2     |    B1     |
+|       Reading       | List of EthereumAddress   |    C2     |    B1     |
+|  Spoken Production  |      List of String       |    C1     |    A2     |
+| Spoken Interaction  |         Boolean           |    C1     |    A2     |
+|       Writing       |         Integer           |    C1     |    A1     |
 
 
