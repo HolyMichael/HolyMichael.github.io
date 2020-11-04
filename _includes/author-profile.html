@@ -13,7 +13,7 @@
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
-  <div class="author__avatar" id="masked" style = "display:none">
+  <div class="author__avatar" id="masked" style="display:none">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar2 }}" alt="{{ author.name }}">
     {% else %}
@@ -22,7 +22,7 @@
   </div>
 
 
-  <div class="test1">
+  <div class="test1" style="text-align: center;">
   	<button onclick="myFunction()">Toggle Mask</button>
   </div>
 
