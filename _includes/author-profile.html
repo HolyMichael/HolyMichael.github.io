@@ -28,23 +28,15 @@
 
   <script>
     function mask() {
-      var x = document.getElementById("masked");
-      var y = document.getElementById("unmasked");
-      if (x.style.display === "none") {
-        y.style.display = "block";
-        x.style.display = "none";
-      }
+      document.getElementById("masked").style.display = "block";
+      document.getElementById("unmasked").style.display = "none";;
     }
     </script>
 
   <script>
     function unmask() {
-      var x = document.getElementById("masked");
-      var y = document.getElementById("unmasked");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.display = "none";
-      }
+      document.getElementById("masked").style.display = "block";
+      document.getElementById("unmasked").style.display = "none";
     }
   </script>
   <div class="author__content">
