@@ -6,6 +6,18 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+  <script>
+        function MyFuncMask(x) {
+            x.src = '{{ author.avatar2  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
+            console.log("masking")
+        }
+
+        function MyFuncUnmask(x) {
+            x.src = '{{ author.avatar1  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
+            console.log("unmasking")
+        }
+  </script>
+
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img onmouseover="MyFuncMask(this)" onmouseout="MyFuncUnmask(this)" src="{{ author.avatar }}" alt="{{ author.name }}">
@@ -13,18 +25,6 @@
     	<img img onmouseover="MyFuncMask(this)" onmouseout="MyFuncUnmask(this)" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
-
-  <script>
-    function MyFuncMask(x) {
-        x.src = '{{ author.avatar2  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
-        console.log("masking")
-    }
-
-    function MyFuncUnmask(x) {
-        x.src = '{{ author.avatar1  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
-        console.log("unmasking")
-    }
-  </script>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
