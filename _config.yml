@@ -82,10 +82,11 @@ analytics:
 author:
   name             : "Miguel Brandão"
   avatar           : "picture.jpg"
+  avatar2          : "picture1.jpg"
   bio              : ""
   location         : "Covilhã, Portugal"
   University       : "Universidade da Beira Interior"
-  googlescholar    : 
+  googlescholar    :
   email            : "migueltbrandao97 {at} gmail.com"
   uri              :
   bitbucket        :
@@ -100,13 +101,13 @@ author:
   instagram        :
   lastfm           :
   linkedin         : "miguel-brand%C3%A3o-6b95491ba"
-  orcid            : 
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
