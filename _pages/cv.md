@@ -13,17 +13,17 @@ I enjoy all aspects of software development, from planning all the way to the po
 
 ## Work Experience
 
-### Zirak
+* ### Zirak
 
-#### 15/09/2019 – 21/09/2020 – Mondovi, Italy
+  #### 15/09/2019 – 21/09/2020 – Mondovi, Italy
 
-**Roles:** Technical Lead, Software Developer, Software Tester.
+  **Roles:** Technical Lead, Software Developer, Software Tester.
 
-During master's thesis, developed a prototype for a blockchain-based supply chain
-traceability system that would collect supply chain-wide information regarding
-product flow. Additionally, the system would make use of machine learning
-models, namely time-series predictions, to extrapolate optimizations regarding
-product flow in the supply chain environment.
+  During master's thesis, developed a prototype for a blockchain-based supply chain
+  traceability system that would collect supply chain-wide information regarding
+  product flow. Additionally, the system would make use of machine learning
+  models, namely time-series predictions, to extrapolate optimizations regarding
+  product flow in the supply chain environment.
 
 ## Education and Training
 
