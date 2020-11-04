@@ -4,6 +4,17 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+<style>
+    div.test1
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+</style>
+
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
@@ -13,8 +24,9 @@
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
-
-  <button onclick="myFunction()">Click Me</button>
+  <div class="test1">
+  	<button onclick="myFunction()">Click Me</button>
+  </div>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
