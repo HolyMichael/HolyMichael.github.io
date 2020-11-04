@@ -8,19 +8,19 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img onmouseover="masked(this)" onmouseout="unmasked(this)" src="{{ author.avatar }}" alt="{{ author.name }}">
+    	<img onmouseover="MyFuncMask(this)" onmouseout="MyFuncUnmask(this)" src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img img onmouseover="masked(this)" onmouseout="unmasked(this)" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    	<img img onmouseover="MyFuncMask(this)" onmouseout="MyFuncUnmask(this)" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
 
   <script>
-    function masked(x) {
+    function MyFuncMask(x) {
         x.src = '{{ author.avatar2  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
         console.log("masking")
     }
 
-    function unmasked(x) {
+    function MyFuncUnmask(x) {
         x.src = '{{ author.avatar1  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
         console.log("unmasking")
     }
