@@ -27,25 +27,25 @@ product flow in the supply chain environment.
 
 ## Education and Training
 
-###Master Degree in Informatics Engineering
+### Master Degree in Informatics Engineering
 #### 2018 – 2020 – Covilhã, Portugal
-####Universidade da Beira Interior
+#### Universidade da Beira Interior
 
 **Project:** "Certitex: a Textile Certified Supply Chain" — Advisor: Prof. Luís A. Alexandre
 Member of the NOVALINCS research group
 **Overall score:** 16/20
 
-###Bachelor Degree in Informatics Engineering
-####2015-2018 – Covilhã, Portugal
-####Universidade da Beira Interior
+### Bachelor Degree in Informatics Engineering
+#### 2015-2018 – Covilhã, Portugal
+#### Universidade da Beira Interior
 
 **Project:** "Something Brawl" — Advisor: Prof. Frutuoso Gomes
 Member of the ReGain group.
 **Overall score:** 13/20
 
-##Language Skills
+## Language Skills
 
-###**Mother tongue:** Portuguese.
+### **Mother tongue:** Portuguese.
 
 Others:
 |                | English   | Spanish    |
