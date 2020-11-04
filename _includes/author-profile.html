@@ -10,7 +10,7 @@
     {% if author.avatar contains "://" %}
     	<img onmouseover="masked(this)" onmouseout="unmasked(this)" src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    	<img img onmouseover="masked(this)" onmouseout="unmasked(this)" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
 
