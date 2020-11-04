@@ -6,14 +6,14 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar" id="unmasked">
+  <div class="author__avatar" id="unmasked" onmouseenter="mask()">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
-  <div class="author__avatar" id="masked" style="display:none">
+  <div class="author__avatar" id="masked" style="display:none" onmouseenter="unmask()">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar2 }}" alt="{{ author.name }}">
     {% else %}
@@ -26,19 +26,27 @@
   	<button onclick="myFunction()">Toggle Mask</button>
   </div>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("masked");
-  var y = document.getElementById("unmasked");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    y.style.display = "none";
-  } else {
-    x.style.display = "none";
-    y.style.display = "block";
-  }
-}
-</script>
+  <script>
+    function mask() {
+      var x = document.getElementById("masked");
+      var y = document.getElementById("unmasked");
+      if (x.style.display === "none") {
+        y.style.display = "block";
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+  <script>
+    function unmask() {
+      var x = document.getElementById("masked");
+      var y = document.getElementById("unmasked");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+      }
+    }
+  </script>
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
