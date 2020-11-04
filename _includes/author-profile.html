@@ -8,13 +8,13 @@
 
 <script>
 function MyFuncMask() {
-    document.getElementById("picture").src = '{{ author.avatar2  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
-    console.log("masking")
+    document.getElementById("picture").src = '{{ author.avatar2  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}';
+    console.log("masking");
 }
 
 function MyFuncUnmask() {
-    document.getElementById("picture").src = '{{ author.avatar1  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}'
-    console.log("unmasking")
+    document.getElementById("picture").src = '{{ author.avatar1  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}';
+    console.log("unmasking");
 }
 </script>
 
