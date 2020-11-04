@@ -16,13 +16,13 @@
 
   <script>
     function masked(x) {
-        x.src = "{{ author.avatar2 }}"
+        x.src = "{{ author.avatar2  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}"
     }
 </script>
 
 <script>
     function unmasked(x) {
-        x.src = "{{ author.avatar }}"
+        x.src = "{{ author.avatar1  | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }} }}"
     }
 </script>
 
