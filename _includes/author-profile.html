@@ -6,14 +6,14 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar" id="unmasked" onmouseenter="mask()">
+  <div class="author__avatar" id="unmasked" onmouseover="mask()">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
-  <div class="author__avatar" id="masked" style="display:none" onmouseenter="unmask()">
+  <div class="author__avatar" id="masked" style="display:none" onmouseover="unmask()">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar2 }}" alt="{{ author.name }}">
     {% else %}
@@ -24,7 +24,7 @@
   <script>
     function mask() {
       document.getElementById("masked").style.display = "block";
-      document.getElementById("unmasked").style.display = "none";;
+      document.getElementById("unmasked").style.display = "none";
     }
     </script>
 
