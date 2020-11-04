@@ -52,12 +52,12 @@ Member of the ReGain group.
 ### **Mother tongue:** Portuguese.
 
 Others:
-|                   | English   | Spanish    |
-|         -            |   -      |      -           |
-|      Listening     |     C2     |    B1     |
-|       Reading      |    C2     |    B1     |
-|  Spoken Production  |    C1     |    A2     |
-| Spoken Interaction  |    C1     |    A2     |
-|       Writing        |   C1     |    A1     |
+||English|Spanish|
+|-|-|-|
+|Listening|C2|B1|
+|Reading |C2|B1|
+|Spoken Production|C1|A2|
+|Spoken Interaction|C1|A2|
+|Writing|C1|A1|
 
 
