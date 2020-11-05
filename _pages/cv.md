@@ -19,9 +19,9 @@ I enjoy all aspects of software development, from planning all the way to the po
 
   **Roles:** Technical Lead, Software Developer, Software Tester.
 
-  During master's thesis, developed a prototype for a blockchain-based supply chain
+  Developed a prototype for a blockchain-based supply chain
   traceability system that would collect supply chain-wide information regarding
-  product flow. Additionally, the system would make use of machine learning
+  product flow able to **certify** product origin. Additionally, the system would make use of machine learning
   models, namely time-series predictions, to extrapolate optimizations regarding
   product flow in the supply chain environment.
 
