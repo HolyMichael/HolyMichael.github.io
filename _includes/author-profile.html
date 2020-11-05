@@ -8,12 +8,12 @@
 
 <script>
 function MyFuncMask() {
-    document.getElementById("picture").src = '{{ author.avatar2 }}';
+    document.getElementById("picture").src = '{{ author.avatar2 | prepend: "/images/" | prepend: base_path }}';
     console.log("masking");
 }
 
 function MyFuncUnmask() {
-    document.getElementById("picture").src = '{{ author.avatar }}';
+    document.getElementById("picture").src = '{{ author.avatar | prepend: "/images/" | prepend: base_path }}';
     console.log("unmasking");
 }
 </script>
