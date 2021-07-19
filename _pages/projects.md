@@ -7,6 +7,8 @@ redirect_from:
   - /projects
 ---
 
+* A tool for predictive analysis of trends in an IT Service: A proof of concept web app that would draw its information from a database where all issue tickets are located. It would put this information in graph format separating issues by categories and offer a predictive analysis of the future amount of issues using Facebook prophet.
+
 * A Secure Lotto: A Proof of concept online lottery where tickets are
 distributed to all signed in users, and only the winners know if they won
 (not even the server knows)
@@ -22,7 +24,7 @@ reading performance.
 * Android application for BMI tracking and assistance in BMI index
 improvements.
 
-* Android applications to guide visitors trough "Centro de Energia Viva da
+* Android application to guide visitors trough "Centro de Energia Viva da
 Montanha" With a facebook like news feed and QR code reading capacity to
 provide visitors with information regarding the several expositions in the
 museum.
