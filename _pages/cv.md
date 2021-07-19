@@ -24,6 +24,16 @@ I enjoy all aspects of software development, from planning all the way to the po
   product flow able to **certify** product origin. Additionally, the system would make use of machine learning
   models, namely time-series predictions, to extrapolate optimizations regarding
   product flow in the supply chain environment.
+  
+  
+
+* ### Softinsa - IBM
+
+  #### 01/2021 – 06/2021 – Fundão, Portugal
+
+  **Roles:** Software Developer, Software Tester.
+
+  Internship role where I had the opportunity to work in several currently ongoing company projects, developing scripts to automate day-to-day chores and database development to support internal company needs. The majority of time in this internship was spent doing back-end work with a team from IBM Munich on a project for Schütz. The internship was interrupted 5 months in due to interest from Softinsa in hiring me as a full-time employee.
 
 ## Education and Training
 
