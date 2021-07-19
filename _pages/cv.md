@@ -45,9 +45,9 @@ I enjoy all aspects of software development, from planning all the way to the po
 
 ## Programming languages
 
-|| Python | SQL | Javascript | C++ | C# | Java
+|             | Python     | SQL                     | Javascript              | C++                     | C#                      | Java
 | Proficiency | Profecient | Profecient/Intermediate | Profecient/Intermediate | Intermediate/Proficient | Intermediate/Proficient | Intermediate/Proficient
-| Usage Time| 8 Years  | 5 Years | 3 Years | 3 Years | 3 Years
+| Usage Time  | 8 Years    | 5 Years                 | 3 Years                 | 3 Years                 | 2 Years                 | 3 Years
 
 ## Language Skills
 
