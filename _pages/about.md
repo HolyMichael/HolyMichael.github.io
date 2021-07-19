@@ -12,4 +12,4 @@ Hi! My name is Miguel Brandao and I'm a Portuguese Computer Science and Engineer
 
 My studies focus mainly in Artificial Inteligence, Secure Software, Blockchain technology and Parallel and Distributed Computing. However I'm interested in many more fields.
 
-I am currently looking for work or to partner in any project related with my field, so if you have anything to discuss send me an email or contact me trough LinkedIn.
+I am currently a Senior Developer @ Softinsa - IBM. I'm always interested in hearing new opportunies so don't hesitate to contact me through LinkedIn or my email.
